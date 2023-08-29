@@ -18,6 +18,18 @@ body {
         left: auto;
         right: auto;
     }
+    
+    .cake {
+        bottom: 10px; /* Adjust the positioning of the cake */
+    }
+
+    .top-layer, .middle-layer, .bottom-layer {
+        /* Adjust the sizes of the cake layers for mobile */
+        height: 40px;
+        width: 120px;
+        background-size: auto 100%;
+        background-position: center;
+    }
 }
 
 .card {
