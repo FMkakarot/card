@@ -10,38 +10,16 @@ body {
     background-color: rgb(228, 149, 4);
 }
 
-@media (max-width: 768px) {
-    .card {
-        width: 90%; /* Adjust the width for smaller screens */
-        max-width: 400px; /* Set a maximum width if needed */
-        transform: none; /* Remove the transform on smaller screens */
-        left: auto;
-        right: auto;
-    }
-    
-    .cake {
-        bottom: 10px; /* Adjust the positioning of the cake */
-    }
-
-    .top-layer, .middle-layer, .bottom-layer {
-        /* Adjust the sizes of the cake layers for mobile */
-        height: 40px;
-        width: 120px;
-        background-size: auto 100%;
-        background-position: center;
-    }
-}
-
 .card {
   
     width: 640px;
     height: 400px;
     position: absolute;
     margin: auto;
-    left: 0;
+    left: -5%;
     top: 0;
     bottom: 0;
-    right: 1000px;
+    right: 100%;
     -webkit-perspective: 1200px;
     perspective: 1200px;
     transition: 1s;
