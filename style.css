@@ -10,6 +10,16 @@ body {
     background-color: rgb(228, 149, 4);
 }
 
+@media (max-width: 768px) {
+    .card {
+        width: 90%; /* Adjust the width for smaller screens */
+        max-width: 400px; /* Set a maximum width if needed */
+        transform: none; /* Remove the transform on smaller screens */
+        left: auto;
+        right: auto;
+    }
+}
+
 .card {
   
     width: 640px;
