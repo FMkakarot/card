@@ -29,7 +29,7 @@ body {
     left: 0;
     top: 0;
     bottom: 0;
-    right: 300px;
+    right: 1000px;
     -webkit-perspective: 1200px;
     perspective: 1200px;
     transition: 1s;
